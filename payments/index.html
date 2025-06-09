@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registro de Pagos | equisx01</title>
+  <link rel="icon" href="https://raw.githubusercontent.com/equis01/evazquez.me/refs/heads/main/img/logo/x%3D.png" type="image/png">
+  <link rel="manifest" href="manifest.json">
+  
+  <!-- ícono para iOS -->
+  <link rel="apple-touch-icon" href="https://evazquez.me/img/logo/x_bg_black.png">
+  
+  <!-- nombre que verá el usuario al instalar -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Pagos | equisx01">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f5f5f5;
+    }
+    header {
+      background-color: #0077cc;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 1rem;
+    }
+    .iframe-container {
+      position: relative;
+      width: 100%;
+      padding-bottom: 150%;
+      height: 0;
+    }
+    .iframe-container iframe {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Portal de Registro de Pagos</h1>
+  </header>
+
+  <main>
+    <div class="iframe-container">
+      <iframe 
+        src="https://script.google.com/macros/s/AKfycbx43p6_z9JLAXPmY_7PhtMiQ8JvATZ7ArNnTgXWyOMp6C_aR5txQYQ0IR-3UZcYBwRC/exec" 
+        allowfullscreen>
+      </iframe>
+    </div>
+  </main>
+
+  <footer>
+    equisx01 · Todos los derechos reservados
+  </footer>
+
+</body>
+</html>

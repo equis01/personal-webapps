@@ -1,0 +1,21 @@
+{
+  "name": "Popit Baby Game",
+  "short_name": "Popit",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "description": "Un juego interactivo tipo Pop-it para bebés con modo dibujo y colores divertidos.",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "theme_color": "#ffffff"
+}

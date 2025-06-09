@@ -1,0 +1,15 @@
+{
+  "name": "Registro de Pagos",
+  "short_name": "Pagos",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0077cc",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/equis01/evazquez.me/refs/heads/main/img/logo/x%3D.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
