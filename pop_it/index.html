@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Popit + Colorea</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Popit infinito y Colorea</h1>
+    <nav>
+      <button id="popitTab">Popit</button>
+      <button id="paintTab">Colorea</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="popitSection" class="active">
+      <div id="popitBoard"></div>
+    </section>
+
+    <section id="paintSection" class="hidden">
+      <canvas id="paintCanvas" width="300" height="300"></canvas>
+      <div id="palette"></div>
+      <button id="clearCanvas">Limpiar</button>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

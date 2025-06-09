@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #fafafa;
+}
+header {
+  background: #ff6fa1;
+  color: white;
+  padding: 1em;
+}
+nav button {
+  margin: 0 0.5em;
+  padding: 0.5em 1em;
+}
+section {
+  display: none;
+  padding: 1em;
+}
+section.active {
+  display: block;
+}
+#popitBoard {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 60px);
+  justify-content: center;
+  gap: 10px;
+  padding: 1em;
+}
+.pop {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(#fbd, #e84);
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.2);
+  transition: transform 0.1s;
+}
+.pop.popped {
+  transform: scale(0.9);
+  background: #ccc;
+  box-shadow: none;
+}
+#paintCanvas {
+  border: 1px solid #333;
+  background: white;
+  touch-action: none;
+}
+#palette {
+  margin-top: 10px;
+}
+#palette button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  margin: 2px;
+}
+.hidden { display: none; }
