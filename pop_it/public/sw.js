@@ -1,7 +1,7 @@
 self.addEventListener('install', function (e) {
   e.waitUntil(
     caches.open('popit-cache').then(function (cache) {
-      return cache.addAll(['/', '/index.html']);
+      return cache.addAll(['/', 'https://evazquez.me/personal-webapps/pop_it/index.html']);
     })
   );
 });
